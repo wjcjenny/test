@@ -1,0 +1,305 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: FoundersGroteskCondSmBd;
+    src: url("../fonts/FoundersGroteskCond-SmBd.otf") format("opentype");;
+}
+@font-face {
+    font-family: PublicoHeadlineLight;
+    src: url("../fonts/PublicoHeadline-Light.otf") format("opentype");;
+}
+
+
+@font-face {
+    font-family: FoundersGroteskMonoRegular;
+    src: url("../fonts/FoundersGroteskMono-Regular.otf") format("opentype");;
+}
+
+@font-face {
+    font-family: PublicoTextRoman;
+    src: url("../fonts/PublicoText-Roman.otf") format("opentype");;
+}
+
+body {
+    font-family: FoundersGroteskMonoRegular,PublicoHeadlineLight,FoundersGroteskCondSmBd;
+    margin: 0;
+    padding: 0!important;
+	font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        padding-right: 2px!important;
+        padding-left: 2px!important;
+    }
+}
+line{
+    stroke:#102039;
+}
+
+.note {
+	font-size:13px;
+}
+.text-tab{
+    font-family: FoundersGroteskMonoRegular;
+}
+
+.twitter-tweet {
+	max-width:500px!important;
+	width:100%!important;
+}
+
+/*headline*/
+.header{
+    font-family: FoundersGroteskCondSmBd!important;
+    font-size: 30px!important;
+    margin-bottom:0;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+/*chatter*/
+.dek{
+    font-family: PublicoHeadlineLight!important;
+    font-size:20px;
+    text-align: left;
+    margin-top: 0px!important;
+    display: inline-block;
+    line-height: 30px;
+}
+img{
+    width:100%;
+}
+
+.caption{
+    font-family: FoundersGroteskMonoRegular!important;
+    margin-top: 5px;
+    color: #8E8E8E;
+    font-size: 12px;
+    line-height: 10px;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+.detailImg {
+	float: left;
+    margin-right: 15px;
+    max-width: 450px!important;
+    text-align: right;
+    font-family: FoundersGroteskMonoRegular;
+    font-size: 12px;
+    color: gray;
+    line-height: 12px;
+    margin-bottom: 10px;
+}
+.detailContent {
+    font-family: PublicoHeadlineLight;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.detailTweet {
+    margin-bottom: 10px;
+    /*max-width: 300px!important;*/
+}
+
+.itemDetails {
+	display:none;
+}
+
+.mainText, .arrow {
+	display:block;
+	float:left;
+}
+
+.arrow {
+	width:30px;
+}
+
+.rotated {
+transform: rotate(90deg);
+	-webkit-transform: rotate(-270deg); 
+    -moz-transform: rotate(-270deg); 
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+}
+
+.inactiveBtn {
+	  background: white!important;
+	color:#102039!important;
+	border: thin solid #102039;
+}
+
+.btnQuiz {
+    font-family: FoundersGroteskMonoRegular!important;
+  background: #102039;
+  background-image: -webkit-linear-gradient(top, #102039, #102039);
+  background-image: -moz-linear-gradient(top, #102039, #102039);
+  background-image: -ms-linear-gradient(top, #102039, #102039);
+  background-image: -o-linear-gradient(top, #102039, #102039);
+  background-image: linear-gradient(to bottom, #102039, #102039);
+  color: #ffffff;
+  padding: 11px 14px 11px 14px;
+  text-decoration: none;
+}
+
+.btnQuiz:hover {
+  background: #19345e;
+  background-image: -webkit-linear-gradient(top, #19345e, #19345e);
+  background-image: -moz-linear-gradient(top, #19345e, #19345e);
+  background-image: -ms-linear-gradient(top, #19345e, #19345e);
+  background-image: -o-linear-gradient(top, #19345e, #19345e);
+  background-image: linear-gradient(to bottom, #19345e, #19345e);
+  text-decoration: none;
+}
+.next {
+	margin-top: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+	display:inline-block;
+}
+
+.item {
+	font-family: PublicoHeadlineLight!important;
+	font-size:18px;
+    text-align: left;
+    margin-top: 6px!important;
+    display: inline-block;
+    line-height: 25px;
+	margin-bottom:20px;
+}
+
+.itemDetails {
+		margin-top:20px;
+}
+
+.date {
+	 font-family: FoundersGroteskCondSmBd!important;
+	 font-size:22px;
+}
+
+.focus{
+    font-family: FoundersGroteskCondSmBd!important;
+    font-size:22px;
+}
+
+
+.itemHead {
+	cursor:pointer;
+	font-size:20px
+}
+
+.owl-carousel {
+	font-family:PublicoHeadlineLight,FoundersGroteskCondSmBd;
+}
+
+.details {
+	line-height:25px;
+}
+
+section {
+	padding-top:15px;
+}
+
+.topHead {
+	    margin-top: 3%!important;
+}
+
+.clearfix {
+	clear:both;
+}
+
+line {
+    stroke: #132137;
+}
+
+
+.square-tab {
+	background:#5C00D8;
+	padding:10px;
+	color:white;
+	width:auto;
+	display:inline-block;
+}
+
+section {
+	width:100%;
+	max-width:700px;
+	margin:0 auto;
+    padding-top: 20px;
+}
+
+/*sourceline*/
+#sourceline {
+   font-family:FoundersGroteskMonoRegular;
+   font-size: 12px;
+   margin-top: 10px;
+}
+.source-left {
+    font-family: FoundersGroteskMonoRegular;
+    color: black;
+    font-size: 12px;
+    line-height:14px;
+    min-width:200px;
+}
+.source {
+    font-family: FoundersGroteskMonoRegular;
+    color:#7C7B7B;
+    font-size: 12px;
+    line-height:14px;
+}
+
+
+
+h1, .bolded {
+	 font-family: FoundersGroteskCondSmBd!important;
+	font-size:25px;
+}
+
+.year {
+	font-size:20px;
+	margin:0
+}
+
+h1 {margin:20px 0 0 0;}
+
+
+
+.formRight {
+	margin:0 auto;
+	width:200px;
+	padding-bottom:30px;
+	display:none;
+}
+
+.formRight select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    height: 40px;
+    padding: 10px;
+    width: 110px;
+}
+
+
+
+.mobile {
+		display:none;
+	}
+
+@media only screen and (max-width: 500px) {
+	.mobile {
+		display:block;
+	}
+	.desktop {
+		display:none;
+	}
+}
